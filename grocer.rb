@@ -137,6 +137,7 @@ def apply_clearance(cart)
     if cart[cart_index][:clearance] == true
       cart[cart_index][:price] *= 0.8 
     end
+    cart_index += 1
   end
   
   return cart
